@@ -73,9 +73,10 @@ WSGI_APPLICATION = 'readtimepro.wsgi.application'
 
 
 DATABASES = {
-    'default': env.db(default="postgres://username:password@host:port/database"),
+    'default': env.db(default="postgresql://grrevhghppahuyic:ostvhpmnaeywiuqt@2247-db-1:5432/rcnknxxfmpmtzsds"),
 }
 
+#     'default': env.db(default="postgres://username:password@host:port/database"),
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": False,
