@@ -60,9 +60,21 @@ TEMPLATES = [
 WSGI_APPLICATION = 'readtimepro.wsgi.application'
 
 
-DATABASES = {
-    'default': env.db(default="sqlite:///db.sqlite3"),
-}
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#        'NAME': 'socria',
+#        'USER': '',
+#        'PASSWORD': '',
+#        'HOST': 'localhost',
+#        'PORT': '5432',
+#    }
+#}
+
+
+#DATABASES = {
+#    'default': env.db(default="sqlite:///db.sqlite3"),
+#}
 
 LOGGING = {
     "version": 1,
