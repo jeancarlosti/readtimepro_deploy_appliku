@@ -72,9 +72,9 @@ WSGI_APPLICATION = 'readtimepro.wsgi.application'
 #}
 
 
-#DATABASES = {
-#    'default': env.db(default="sqlite:///db.sqlite3"),
-#}
+DATABASES = {
+    'default': env.db(default="postgres://username:password@host:port/database"),
+}
 
 LOGGING = {
     "version": 1,
